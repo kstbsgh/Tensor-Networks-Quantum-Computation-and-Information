@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{graphicx} % Required for inserting images
+\usepackage{hyperref}
+\usepackage[margin=1in]{geometry}
+
+\newcommand{\vs}[1][1]{         %THere is one argument, and the default is 1.
+    \vspace{#1em}
+}
+
+\title{Tensor Networks, Quantum Computation and Information Notes}
+
+\author{Kaustubh Singh}
+
+\begin{document}
+% Make the cliackable references a different colour TODO
+% If the reference is open source, it could be saved in a repo, or a local pointer to it could be saved as a references.
+% The arxiv number can be used as a pointer to the locally stored file. you can refer to those instead of the href. 
+
+\maketitle
+
+\begin{center}
+    These notes will contain my attempts at exploring new topics in quantum computation and information. These will contain references to books, webpages, papers and articles which I found interesting, along with possibly hyperlinks to my own implementations in certain cases. 
+\end{center}
+
+\section{Quantum information}
+
+\href{https://felixleditzky.info/selected_references.html#intros}{Selected references to topics in mathematics and quantum information theory} by \href{https://felixleditzky.info/}{Felix Leditzky}. A webpage with a very wide variety of references. 
+
+\section{Tensor networks}
+% TODO Include the papers in the bibliography as references.
+\href{https://arxiv.org/abs/2205.10345}{Tensor Network Algorithms: a Route Map
+} by Mari Carmen Bañuls.
+
+% Get rid of the small indent before the new line starts after a \vs 
+
+\vs
+
+\href{https://arxiv.org/abs/cond-mat/0701428}{From density-matrix renormalization group to matrix product states} by Ian P. McCulloch.
+
+\vs
+
+\href{https://arxiv.org/abs/1910.00257}{Review on novel methods for lattice gauge theories
+} by Mari Carmen Bañuls, Krzysztof Cichy.
+
+\vs 
+
+\href{https://arxiv.org/abs/quant-ph/0511070}{Classical simulation of quantum many-body systems with a tree tensor network
+} by Yaoyun Shi, Luming Duan, Guifre Vidal. This is TEBD with TTNs. 
+
+\vs 
+
+\href{https://arxiv.org/abs/2609.16520}{Truncated hybrid tensor networks for distributed quantum simulation} by Yong Liu, Guangyao Huang, Weixu Shi et. al. This is the hybrid TEBD algorithm.
+
+\section{Collective neutrino oscillations}
+\href{https://arxiv.org/abs/2301.00342}{Many-body collective neutrino oscillations: recent developments
+} by Amol V. Patwardhan, Michael J. Cervia, Ermal Rrapaj, Pooja Siwach et. al.
+
+\vs
+
+\href{https://arxiv.org/abs/2305.01150}{Quantum information and quantum simulation of neutrino physics} by A. B. Balantekin, Michael J. Cervia, Amol V. Patwardhan, Ermal Rrapaj, Pooja Siwach.
+\vs 
+
+\href{https://arxiv.org/abs/2202.01865}{Collective neutrino oscillations with tensor networks using a time-dependent variational principle} by Michael J. Cervia, Pooja Siwach et. al.
+
+\section{Quantum communication}
+
+\href{https://arxiv.org/abs/2506.20484}{   An adversary bound for quantum signal processing
+} by Lorenzo Laneve.
+
+\end{document}
